@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &757621770516247387
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1641863934240319718}
+  - component: {fileID: 1124038825556490776}
+  - component: {fileID: 7028309252853168776}
+  m_Layer: 0
+  m_Name: SpawnerObj
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1641863934240319718
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757621770516247387}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.044956, y: 12.787713, z: -111.16941}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1124038825556490776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757621770516247387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63bc55a5c512a8d4dae09a9157b9ab5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BulletObjects:
+  - {fileID: 1828015918032219030, guid: a5f76fb771a168240aa19cbee11c7cf9, type: 3}
+  - {fileID: 1828015918032219030, guid: 36f0e5f17e224c4419fefc827fe9b061, type: 3}
+  - {fileID: 3205398116098503671, guid: a713a881f43735849bcae128b7ea8726, type: 3}
+  - {fileID: 1828015918032219030, guid: 0ed0f74744cb75f44bb16d407e40612d, type: 3}
+  - {fileID: 1828015918032219030, guid: 4abe966c2878623418408555a606f400, type: 3}
+  - {fileID: 1828015918032219030, guid: 943b703fc23c9724c8540e1d9e7587a7, type: 3}
+  EachBulletPoolAmount: 10
+--- !u!114 &7028309252853168776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757621770516247387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbbf368e8b9ef494480b5288e00bb182, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WaveNum: 1
+  EnemySpawnDelay: 1
+  YarnPrefab: {fileID: 6731043178468441633, guid: 41f8261f2ea9e3d4aac02378b6620790,
+    type: 3}
+  normalEnemyPrefab: {fileID: 4982295060253263847, guid: 4358656254278364297fe1ac19b56c05,
+    type: 3}
+  rocketEnemyPrefab: {fileID: 4982295060253263847, guid: bf02cab2ee7aa874bbb26058ff4dfccb,
+    type: 3}
+  healerEnemyPrefab: {fileID: 3317283380352316581, guid: ec669988b00be2e4689b75b38934b10c,
+    type: 3}
+  CatBossPrefab: {fileID: 660148438859892452, guid: de6c2d5cf3d91f54ba6ecca489222f6c,
+    type: 3}
+  MultiballBossPrefab: {fileID: 3848339720933800998, guid: 2babb4f91ef502b4cb08e3c1f2cbb04e,
+    type: 3}
+  CircleEnemyPrefab: {fileID: 4982295060253263847, guid: fbe06a23c07234e4d817e39a99c7b929,
+    type: 3}
+  FinalBossPrefab: {fileID: 8735141149263934899, guid: 6916999d00aca114c915b5af2ee83d91,
+    type: 3}
+  SpawnXmin: -2
+  SpawnXmax: 3
+  YarnTimer: 20
+  randYarnTime: 10
+  yarnSpawn: 1
